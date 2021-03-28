@@ -149,7 +149,7 @@ nav a:visited {
   margin-bottom: 10px;
 }
 .flex-item h5 {
-  font-size: 1.7rem;
+  font-size: 1.3rem;
   font-weight: lighter;
   color: rgba(29, 29, 31, 0.9);
 }
@@ -204,4 +204,41 @@ nav a:visited {
   background-image: url("https://www.apple.com/v/home/x/images/promos/tv-plus-oprah-amanda-gorman/promo_tile__ivhgndrnkuye_large.jpg");
   background-size: cover;
   background-position: center;
+}
+.special {
+  display: block;
+  color: brown;
+  font-size: 1rem;
+}
+
+.team {
+  padding: 50px 0;
+  width: 90%;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.team h2 {
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 10px;
+  /* text-decoration: underline; */
+  margin-bottom: 50px;
+}
+figcaption {
+  color: rgb(0, 102, 204, 0.9);
+  padding: 10px;
+}
+.job-title {
+  color: rgba(29, 29, 31, 0.9);
+  margin-top: 10px;
+  display: block;
+}
+
+.flex-container-job {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.employee:not(:last-child) {
+  margin-right: 30px;
 }

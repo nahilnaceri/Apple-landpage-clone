@@ -6,6 +6,9 @@
 html {
   font-size: 16px;
 }
+body {
+  background-color: rgb(251, 251, 253);
+}
 
 nav {
   width: 100%;
@@ -54,7 +57,7 @@ nav a:visited {
   width: 100%;
   /* position: relative;
   top: 44px; */
-  margin: 3rem 0;
+  margin: 3rem 0 1rem 0rem;
   height: 37.5rem;
   background-color: rgb(251, 251, 253);
   background-image: url("https://www.apple.com/v/home/x/images/heroes/iphone-12/iphone_12_us__fo0stbby242m_medium.jpg");
@@ -63,6 +66,15 @@ nav a:visited {
   background-position: center;
   display: flex;
   flex-direction: column;
+}
+.banner-2 {
+  background-image: url("https://www.apple.com/v/home/x/images/heroes/iphone-12-pro/iphone_12_pro_us__e5oyysg4k0ya_medium.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 0;
+  height: 37.5rem;
 }
 
 .banner__heading {
@@ -88,6 +100,11 @@ nav a:visited {
   color: rgb(29, 29, 31);
   font-weight: lighter;
 }
+.banner-2 h2,
+.banner-2 h3 {
+  color: #fff;
+}
+
 .banner__pricing {
   color: rgb(134, 134, 139);
   font-size: 1.1rem;
@@ -109,4 +126,82 @@ nav a:visited {
 
 .banner__cta a:hover {
   text-decoration: underline;
+}
+
+.collections {
+  width: 100%;
+  /* height: auto; */
+  padding: 0 0;
+  background-color: rgb(251, 251, 253);
+}
+.flex-container-collect {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+.flex-item h4 {
+  font-size: 2.4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  /* padding-top: 30px; */
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.flex-item h5 {
+  font-size: 1.7rem;
+  font-weight: lighter;
+  color: rgba(29, 29, 31, 0.9);
+}
+.flex-item {
+  margin-top: 20px;
+  width: 47%;
+
+  height: 35.5rem;
+  /* border: 1px solid black; */
+  text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  .flex-item {
+    width: 100%;
+  }
+}
+.bg-img-ipad {
+  background-image: url("https://www.apple.com/v/home/x/images/promos/ipad-air/tile__cauwwcyyn9hy_large.jpg");
+
+  background-size: cover;
+  background-position: center;
+}
+.bg-img-watch {
+  background-image: url("https://www.apple.com/v/home/x/images/promos/watch-series-6/tile__cauwwcyyn9hy_large.jpg");
+  background-color: black;
+  background-size: 240px 381px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.bg-img-mac {
+  background-image: url("https://www.apple.com/v/home/x/images/promos/macbook-air/macbook_air__knzp0i282eyy_large.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.bg-img-fitness {
+  background-image: url("https://www.apple.com/v/home/x/images/promos/apple-fitness-plus/tile__cauwwcyyn9hy_large.jpg");
+  background-color: rgb(251, 251, 253);
+  background-size: 1154px 344px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.bg-img-oneBundle {
+  background-image: url("https://www.apple.com/v/home/x/images/promos/apple-one/tile__cauwwcyyn9hy_large.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(251, 251, 253);
+  background-size: 558px 341px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.bg-img-tv {
+  background-image: url("https://www.apple.com/v/home/x/images/promos/tv-plus-oprah-amanda-gorman/promo_tile__ivhgndrnkuye_large.jpg");
+  background-size: cover;
+  background-position: center;
 }
